@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intecons</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .cta {
+      background: #e0e7ff;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 8px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+
+    .cta button {
+      padding: 10px 20px;
+      background: rgb(9, 9, 40);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: rgb(13, 13, 60);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #e0e7ff;
+    }
+
+
+
+
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 45vw;
+      height: 13vh;
+      width: 100vw;
+      background-color: #e0e7ff;
+      color: rgb(9, 9, 40)
+    }
+
+    nav a {
+      color: rgb(9, 9, 40);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      gap: 20vw;
+      padding: 20px;
+    }
+
+    body {
+
+      background-color: #c0c9e8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      font-size: large
+    }
+
+    .all {
+      color: rgb(9, 9, 40);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 30px;
+      padding: 10px;
+
+    }
+
+    .t1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pera {
+
+      margin: 10px;
+      font-size: larger;
+    }
+
+    .cta button:hover {
+      background: #0f74d4;
+    }
+
+    @media (max-width: 800px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+
+      }
+
+      header {
+
+        margin-left: 20vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="head">
+    <header>
+      <h1>Intecons Software Lab</h1>
+      <p>Innovating the future, today.</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </div><br />
+
+
+  <section id="about" class="all">
+    <h2 style="margin:15px;" > About Us</h2>
+    <p class="pera">We are a forward-thinking startup committed to revolutionizing the way people interact with
+      technology. Our team blends creativity, innovation, and tech expertise to deliver impactful solutions.</p>
+    <p class="pera">Our purpose, mission, and values
+      To help our clients make distinctive, lasting, and substantial improvements in their performance and to build a
+      great firm that attracts, develops, excites, and retains exceptional people.
+
+      We are a values-driven organization. Our values have been updated in small ways to reflect the changing times.
+      They inform both our long-term strategy as a firm and the way we serve our clients on a daily basis. We put aside
+      one day a year to reflect as a group on what our values mean to both our work and our lives.</p>
+    <div class="pera">
+      <h2>Create an unrivaled environment for exceptional people</h2>
+      <ul>
+        <li>be nonhierarchical and inclusive</li>
+        <li>sustain a caring meritocracy</li>
+        <li>develop one another through apprenticeship and mentoring</li>
+        <li> uphold the obligations to engage and dissent</li>
+        <li> embrace diverse perspectives with curiosity and respect</li>
+        <li> govern ourselves as a “one firm” partnership</li>
+
+      </ul>
+    </div>
+
+
+  </section>
+
+  <section id="services" class="all">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Custom Software Development</li>
+      <li>UX/UI Design</li>
+      <li>Cloud Integration</li>
+      <li>AI & Machine Learning Solutions</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="all">
+    <h2>Contact Us</h2>
+    <p>Email: contact@intecons.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+    <p>Location: 123 Startup St, Innovation City, USA</p>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Transform Your Business?</h2>
+    <p>Let's build something amazing together. Reach out to us today!</p>
+    <button onclick="window.location.href='#contact'">Get in Touch</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Intecons. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
