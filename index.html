@@ -74,10 +74,7 @@
 
     .all {
       color: rgb(9, 9, 40);
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
+     
       margin: 30px;
       padding: 10px;
 
@@ -103,14 +100,63 @@
       nav {
         flex-direction: column;
         gap: 10px;
+        justify-content: center;
 
       }
 
       header {
-
+        justify-content: center;
         margin-left: 20vw;
       }
+      .cards{
+        gap:200000px;
+        
+      }
+      .all{
+         display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
     }
+
+    .sbs{
+        display: flex;
+        flex-direction: row;
+      justify-content:center;
+      align-items: center;
+      gap:50px ; 
+      }
+
+      .card{
+        height:75vh;
+        width: 60vh;
+        background-color: #0b1926;
+        color:white ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        flex-direction: column;
+        
+      }
+      .cardi{
+        margin:10px;
+        padding:15px;
+      }
+      .img1{
+        display: block; 
+         height: 400px;
+         width:350px;
+      }
+      .cards{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(20vw, 25vw));
+        grid-template-rows: auto;
+        gap:100px;
+        margin-top: 50px;
+      }
   </style>
 </head>
 
@@ -127,11 +173,21 @@
       <a href="#contact">Contact</a>
     </nav>
 
-  </div><br />
+  </div>
 
 
-  <section id="about" class="all">
-    <h2 style="margin:15px;" > About Us</h2>
+  <section id="about" class="all " >
+    <h2 style="display: flex;  justify-content: center; align-items: center; font-size: 50px; " class="all" > About Us</h2>
+    <div class="sbs all">
+
+
+    <div >
+      <img src = "https://images.unsplash.com/photo-1536148935331-408321065b18?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c29mdHdhcmUlMjBjb21wYW55fGVufDB8fDB8fHww" height="800px" width="600px"/>
+    </div>
+
+    <div style="margin-top: 0px; padding-top: 0%;" >
+      <h1 class="paragraph" style="margin-top:60px; font-size: xx-large;">Who we are</h1>
+      <h3 class="paragraph">Our firm is designed to operate as one—a single global partnership united by a strong set of values. We are equally committed to both sides of our mission: attracting and developing a talented and diverse group of colleagues and helping our clients create meaningful and lasting change.</h3>
     <p class="paragraph">We are a forward-thinking startup committed to revolutionizing the way people interact with
       technology. Our team blends creativity, innovation, and tech expertise to deliver impactful solutions.</p>
     <p class="paragraph">Our purpose, mission, and values
@@ -141,6 +197,8 @@
       We are a values-driven organization. Our values have been updated in small ways to reflect the changing times.
       They inform both our long-term strategy as a firm and the way we serve our clients on a daily basis. We put aside
       one day a year to reflect as a group on what our values mean to both our work and our lives.</p>
+
+
     <div class="paragraph">
       <h2>Create an unrivaled environment for exceptional people</h2>
       <ul>
@@ -154,18 +212,51 @@
       </ul>
     </div>
 
-
+  </div></div>
   </section>
 
-  <section id="services" class="all">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Custom Software Development</li>
-      <li>UX/UI Design</li>
-      <li>Cloud Integration</li>
-      <li>AI & Machine Learning Solutions</li>
-    </ul>
-  </section>
+
+<div class="sbs paragraph">
+
+  <div class="paragraph">
+    <h1 class="paragraph">How we work</h1>
+    <p class="paragraph">From the C-suite to the front line, we partner with clients to help them innovate more sustainably, achieve lasting gains in performance, and build workforces that will thrive for this generation and the next.</p>
+  </div>
+  <div class="paragraph">
+  <img src="https://plus.unsplash.com/premium_photo-1661772661721-b16346fe5b0f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="600px" width="800px" /></div>
+</div>
+
+  <div id = "services"  class="all" >
+    <h1 style="display: flex; justify-content: center; font-size: 50px;">Our Services</h1>  
+
+    <div class="cards ">
+
+    <div class="card cardi">
+    <h2 style="margin:5px;">Custom Software Development</h2>
+    <img src="https://plus.unsplash.com/premium_photo-1682088318236-8c4958076b34?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3VzdG9tJTIwc29mdHdhcmUlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHx8MA%3D%3D" class="img1"/>
+    <p class="cardi">Custom and data-managed services Reduce your total cost of ownership and lower maintenance of applications and data, managing custom apps on cloud by leveraging capabilities in intelligent automation, self-healing, DevSecOps, platform engineering and SRE.</p>
+  </div>
+
+  <div class="card cardi ">
+    <h2 style="margin:5px;">UX/UI Design</h2>
+    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img1"/>
+    <p class="cardi" >At the heart of our UI/UX design services is a commitment to creating intuitive, engaging, and user-centered digital experiences. We combine in-depth user research, wireframing, and prototyping with sleek, responsive UI design to bring your vision to life.  </p>
+    </div>
+
+    <div class="card cardi">
+    <h2 style="margin:5px;">Cloud Integration</h2>
+    <img src="https://media.istockphoto.com/id/1690273394/photo/database-storage-cloud-technology-file-data-transfer-sharing-cyber-big-data-information-for.jpg?s=612x612&w=0&k=20&c=GymCoEUGy9MzZdjTHwqwDoLLk8pBsJBYyq0fv2543wk=" class="img1"/>
+    <p class="cardi">Transform your business model for growth with a hybrid cloud approach, lowering application costs and improving return on investment with AI and automation.</p>
+  </div>
+
+  <div class="card cardi">
+    <h2 style="margin:5px;">AI & Machine Learning Solutions</h2>
+    <img src="https://media.istockphoto.com/id/1387900612/photo/automation-data-analytic-with-robot-and-digital-visualization-for-big-data-scientist.jpg?s=2048x2048&w=is&k=20&c=zLKHgq_p3IRkXSjbrOEPuJiXD7opXMRXiod4J-MXJuw=" class="img1"/>
+    <p class="cardi">Your data is your organization’s secret weapon. A strong data foundation is vital in empowering your business with the latest technological advances, including AI, machine learning, and agentic workforces </p>
+
+  </div>
+</div></div>
+
 
   <section id="contact" class="all">
     <h2>Contact Us</h2>
